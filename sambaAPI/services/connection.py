@@ -28,8 +28,8 @@ class ConnectionService:
 		lp = LoadParm()
 		creds = Credentials()
 		creds.guess(lp)
-		creds.set_username("Administrator")
-		creds.set_password("Admin@123")
+		creds.set_username("")
+		creds.set_password("")
 		con = SamDB(url='ldap://192.168.100.26:389' , session_info=system_session(),
 						 credentials=creds, lp=lp)
 		return con
