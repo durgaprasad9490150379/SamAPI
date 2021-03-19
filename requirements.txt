@@ -10,7 +10,7 @@ decorator==4.4.0
 Django==2.2.1
 django-cors-headers==3.0.2
 django-rest-swagger==2.2.0
-djangorestframework==3.9.3
+djangorestframework==3.11.2
 Faker==0.9.1
 idna==2.8
 importlib-metadata==0.18
